@@ -1,4 +1,8 @@
-def      helloworld(a):
-    print(f"Hello World! {a}")#adsf
+def helloworld(a):
+    msg = f"Hello World! {a}"
+    print(msg)  # adsf
+    return msg
+
+
 if __name__ == "__main__":
     helloworld("Deepdog")
